@@ -1,7 +1,9 @@
 html {
     height: 100%;
 }
-
+* {
+    box-sizing: border-box
+}
 body {
     margin: 0;
     padding: 0;
@@ -88,6 +90,13 @@ input {
     color:red
 }
 
-@media (max-widh: 640px) {
+@media screen and (max-width: 640px) {
     h2 {font-size: 16pt}
+    .main {
+        width:90%
+    }
+    .logo {
+        width:280px;
+        height:122px;
+    }
 }
