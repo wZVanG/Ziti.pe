@@ -52,7 +52,7 @@
                         const color = colors[i];
                         lines[i].style.left = left + "%";
                         lines[i].style.color = color;
-                        lines[i].querySelector(".nick span").innerText = item[0];
+                        lines[i].querySelector(".nick span").innerText = item[0] + ": " + (item[1]/100).toFixed(2) + "";
                     }); 
                 });
             });
